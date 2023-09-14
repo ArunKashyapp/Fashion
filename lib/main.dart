@@ -19,7 +19,7 @@ class MyApp extends StatelessWidget {
       ),
       title: 'arun_s_application1',
       debugShowCheckedModeBanner: false,
-      initialRoute: AppRoutes.onbordingOneScreen,
+      initialRoute: AppRoutes.splashScreen,
       routes: AppRoutes.routes,
     );
   }

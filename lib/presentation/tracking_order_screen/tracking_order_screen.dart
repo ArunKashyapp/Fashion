@@ -11,6 +11,10 @@ import 'package:google_maps_flutter/google_maps_flutter.dart';
 class TrackingOrderScreen extends StatelessWidget {
   Completer<GoogleMapController> googleMapController = Completer();
 
+  onTapArrowleft11(BuildContext context) {
+    Navigator.pop(context);
+  }
+
   @override
   Widget build(BuildContext context) {
     return SafeArea(
@@ -214,9 +218,5 @@ class TrackingOrderScreen extends StatelessWidget {
                                     styleType: Style.bgShadowBlack90019)
                               ]))
                     ]))));
-  }
-
-  onTapArrowleft11(BuildContext context) {
-    Navigator.pop(context);
   }
 }
